@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.485" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\emrec\IdeaProjects\SpotifyRestAPI\target\test-classes;C:\Users\emrec\IdeaProjects\SpotifyRestAPI\target\classes;C:\Users\emrec\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\emrec\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\emrec\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\emrec\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\emrec\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\emrec\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\emrec\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\emrec\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\emrec\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\emrec\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\emrec\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\emrec\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\emrec\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\emrec\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\emrec\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\emrec\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\emrec\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\emrec\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\emrec\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.1\jackson-databind-2.15.1.jar;C:\Users\emrec\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.1\jackson-annotations-2.15.1.jar;C:\Users\emrec\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.1\jackson-core-2.15.1.jar;C:\Users\emrec\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\emrec\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\emrec\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\emrec\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\emrec\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\emrec\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\emrec\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\emrec\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\emrec\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\emrec\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\emrec\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\emrec\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\emrec\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\emrec\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\emrec\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\emrec\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\emrec\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\emrec\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\emrec\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\emrec\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\emrec\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\emrec\AppData\Local\Temp\surefire1889545776144159861\surefirebooter-20240312013926861_3.jar C:\Users\emrec\AppData\Local\Temp\surefire1889545776144159861 2024-03-12T01-39-24_814-jvmRun1 surefire-20240312013926861_1tmp surefire_0-20240312013926861_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\emrec\IdeaProjects\SpotifyRestAPI\target\test-classes;C:\Users\emrec\IdeaProjects\SpotifyRestAPI\target\classes;C:\Users\emrec\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\emrec\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\emrec\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\emrec\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\emrec\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\emrec\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\emrec\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\emrec\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\emrec\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\emrec\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\emrec\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\emrec\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\emrec\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\emrec\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\emrec\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\emrec\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\emrec\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\emrec\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\emrec\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.1\jackson-databind-2.15.1.jar;C:\Users\emrec\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.1\jackson-annotations-2.15.1.jar;C:\Users\emrec\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.1\jackson-core-2.15.1.jar;C:\Users\emrec\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\emrec\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\emrec\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\emrec\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\emrec\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\emrec\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\emrec\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\emrec\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\emrec\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\emrec\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\emrec\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\emrec\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\emrec\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\emrec\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\emrec\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\emrec\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\emrec\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\emrec\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\emrec\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\emrec\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\emrec\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\emrec\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\emrec\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\emrec"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\emrec\IdeaProjects\SpotifyRestAPI"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\emrec\AppData\Local\Temp\surefire1889545776144159861\surefirebooter-20240312013926861_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19+36-2238"/>
+    <property name="user.name" value="emrec"/>
+    <property name="stdout.encoding" value="Cp1254"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\emrec\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\emrec\AppData\Local\Temp\"/>
+    <property name="java.version" value="19"/>
+    <property name="user.dir" value="C:\Users\emrec\IdeaProjects\SpotifyRestAPI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\emrec\Downloads\allure-2.24.1\bin;C:\Users\emrec\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.6\bin;;C:\Users\emrec\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\emrec\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1254"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19+36-2238"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithExpiredToken" classname="com.spotify.oauth2.tests.PlaylistTests" time="10.108">
+    <system-out><![CDATA[STARTING TEST: ShouldBeAbleToGetAPlaylist
+STARTING TEST: ShouldBeAbleToUpdateAPlaylist
+STARTING TEST: ShouldBeAbleToCreateAPlaylist
+STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithExpiredToken
+STARTING TEST: ShouldNotBeAbleToCreateAPlaylistWithoutName
+THREAD ID: 37
+THREAD ID: 38
+THREAD ID: 36
+THREAD ID: 39
+THREAD ID: 40
+Renewing Token ...
+Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQDfJSZjsbLQHUUTd8ICfeS8VmoeOhcl-8BhHQkeagqdjPZPaf9o2OZ9KZjmM8LyDM69S2X36H_Vh9uMPGgJGxGcW4hbsIqDVZgh6gi4m_8UE28R6bS-5ys70DjyQmgua-Q
+				grant_type=refresh_token
+				client_secret=b7f8906963e849e6ad8b6eee0a66d583
+				client_id=1c1b280f0b6d49c090884e62a27a22eb
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/3173erklevrugaq3blkvgtdb2tfu/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "DescriptionQ8l_-CIp -__--_- f2,",
+    "name": "PlaylistT   9-  l2",
+    "public": false
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: deflate
+Content-Length: 80
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 11 Mar 2024 22:39:42 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "status": 401,
+        "message": "Invalid access token"
+    }
+}
+HTTP/1.1 200 OK
+date: Mon, 11 Mar 2024 22:39:43 GMT
+content-type: application/json
+Content-Length: 438
+vary: Accept-Encoding
+set-cookie: __Host-device_id=AQAPc9iyZsncVarWYEi_ChGf6mN_P_g5Xh-1IPgk0yztzukmzTji5sA-qoaRCqjUcSSBSeLBDKVr1Kd7uctDrWkKONxePxy-RZE;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: f6f444d395c7d993
+x-envoy-upstream-service-time: 39
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "access_token": "BQATQvnqMCWfA6D1hz7_pYPRMVDtS90o2h0FdnwFBBwGZXeXZBSopb0W9GDMd16cvmgnKSUmAMyIrDVLOOHl-YoSYVJ37Fo2ASVBkHNE-JVVPk7hf-puiKrOWsWXyiflixcfn3TSKApgO0-5ns1pWtIiNluPVp-IsemHj5DI151rMVqrEsHE-DRj-5DC5kiu8WNcmfjeWndzg3H45gcO78J9tWJo0AzrI3y2fhM4605ESuRqNxBR4_TWAKiQ0zu9QmjvnEKWLHTjThuy",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="ShouldNotBeAbleToCreateAPlaylistWithoutName" classname="com.spotify.oauth2.tests.PlaylistTests" time="11.556">
+    <system-out><![CDATA[Token is available
+Token is available
+Token is available
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/1q1QDqxIfawiJ2sjb7M4hm
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/3173erklevrugaq3blkvgtdb2tfu/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description_YT9 _1,Gco vL_ 5,F_",
+    "name": "",
+    "public": false
+}
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/3173erklevrugaq3blkvgtdb2tfu/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "DescriptionuU8_-_p c  ,_ 3 zMN_",
+    "name": "Playlist_ h03- -41",
+    "public": false
+}
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/1q1QDqxIfawiJ2sjb7M4hm
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description-m --NC, yW ,_, _9,-",
+    "name": "Playlist L15 , y_g",
+    "public": false
+}
+HTTP/1.1 400 Bad Request
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: deflate
+Content-Length: 82
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 11 Mar 2024 22:39:44 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "error": {
+        "status": 400,
+        "message": "Missing required field: name"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToCreateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="11.739">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: deflate
+Content-Length: 452
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 11 Mar 2024 22:39:44 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "collaborative": false,
+    "description": "DescriptionuU8_-_p c  ,_ 3 zMN_",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6NQwlGwaZGzKVwYiB0d11z"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/6NQwlGwaZGzKVwYiB0d11z",
+    "id": "6NQwlGwaZGzKVwYiB0d11z",
+    "images": [
+        
+    ],
+    "primary_color": null,
+    "name": "Playlist_ h03- -41",
+    "type": "playlist",
+    "uri": "spotify:playlist:6NQwlGwaZGzKVwYiB0d11z",
+    "owner": {
+        "href": "https://api.spotify.com/v1/users/77fed2fed1d141789134a56e2d053696",
+        "id": "77fed2fed1d141789134a56e2d053696",
+        "type": "user",
+        "uri": "spotify:user:77fed2fed1d141789134a56e2d053696",
+        "display_name": null,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/77fed2fed1d141789134a56e2d053696"
+        }
+    },
+    "public": false,
+    "snapshot_id": "NjEsNjU0ZjBiZDgyZjMwZGM0MDNmMTUyY2Y2M2VkODAyNjVmMTI0MzZkMg==",
+    "tracks": {
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "href": "https://api.spotify.com/v1/playlists/6NQwlGwaZGzKVwYiB0d11z/tracks",
+        "total": 0,
+        "items": [
+            
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToUpdateAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="11.787">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+Content-Length: 0
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 11 Mar 2024 22:39:45 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-Ijc4MWQ0Y2FiMjczNjJmOTg2ZjcwNjcwYjQ2NjVmMjY0Ig=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: deflate
+Content-Length: 454
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 11 Mar 2024 22:39:44 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "collaborative": false,
+    "description": "Description,vq --c_i,_F0r- E-_r",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/1q1QDqxIfawiJ2sjb7M4hm"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/1q1QDqxIfawiJ2sjb7M4hm",
+    "id": "1q1QDqxIfawiJ2sjb7M4hm",
+    "images": null,
+    "name": "Playlist_7w_j0SA_,",
+    "owner": {
+        "display_name": "emre",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/3173erklevrugaq3blkvgtdb2tfu"
+        },
+        "href": "https://api.spotify.com/v1/users/3173erklevrugaq3blkvgtdb2tfu",
+        "id": "3173erklevrugaq3blkvgtdb2tfu",
+        "type": "user",
+        "uri": "spotify:user:3173erklevrugaq3blkvgtdb2tfu"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NDMsNjQ3OWI4NjNhN2I5OWJmNDg3NDBhM2ExMDJmM2E2MzFkYTZmZmNiNw==",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1q1QDqxIfawiJ2sjb7M4hm/tracks?offset=0&limit=0",
+        "items": [
+            
+        ],
+        "limit": 0,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1q1QDqxIfawiJ2sjb7M4hm"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ShouldBeAbleToGetAPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="11.82">
+    <failure message="&#10;Expected: &quot;Updated Playlist Name&quot;&#10;     but: was &quot;Playlist_7w_j0SA_,&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: "Updated Playlist Name"
+     but: was "Playlist_7w_j0SA_,"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at com.spotify.oauth2.tests.PlaylistTests.assertPlaylistEqual(PlaylistTests.java:75)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToGetAPlaylist(PlaylistTests.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+]]></failure>
+  </testcase>
+</testsuite>
